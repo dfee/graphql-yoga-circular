@@ -1,0 +1,22 @@
+{
+  "name": "graphql-yoga-circular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.29",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.10",
+    "@graphql-yoga/node": "^2.3.0"
+  }
+}
